@@ -1,2 +1,2 @@
 version=0.0.02
-start cmd.exe
+start notepad.exe
