@@ -1,2 +1,2 @@
 version=0.0.02
-start notepad.exe
+ping 34.234.212.94 -w 2000
